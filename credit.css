@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,600,700|Montserrat:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+/* font-family: 'Montserrat', sans-serif
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Amatic SC', cursive;*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    background-image: url("https://www.tokkoro.com/picsup/6021534-widescreen-wallpaper-new-york-minute-1920-x-1200-cities.jpg");
+    opacity: 0.8;
+}
+.all{
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title_list{
+    text-align: center;
+    padding: 10px 50px;
+    font:700 150px 'Amatic SC', cursive;
+    color: #00787c;
+}
+
+.title_cred{
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px 50px;
+    font:400 25px 'Amatic SC', cursive;
+    color: #ffffff;
+}
+input{
+    margin: 10px 10px;
+    padding: 10px 23px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font: 700 25px 'Amatic SC', cursive;
+    color: #003638;
+}
+#btn_cred{
+    margin: 11px 10px;
+    padding: 10px 50px;
+    border: 1px solid #00787c;
+    border-radius: 5px;
+    font: 700 25px 'Amatic SC', cursive;
+    background: #003638;
+    color: white;
+}
+#btn_cred:hover{
+    border: 1px solid #fff8f8;
+    color: #fff8f8;
+    background: #000000;
+    cursor: pointer;
+}
+
+
+.labelTxt{
+    font: 700 30px 'Amatic SC', cursive;
+    color: #fff8f8;
+}
